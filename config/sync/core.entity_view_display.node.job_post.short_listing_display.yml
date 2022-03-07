@@ -1,0 +1,75 @@
+uuid: 5885d3ef-234c-4bc5-9f2e-cfcbef9202ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.short_listing_display
+    - field.field.node.job_post.body
+    - field.field.node.job_post.field_company
+    - field.field.node.job_post.field_employment_type
+    - field.field.node.job_post.field_job_category
+    - field.field.node.job_post.field_job_title
+    - field.field.node.job_post.field_location
+    - field.field.node.job_post.field_workplace_type
+    - field.field.node.job_post.layout_builder__layout
+    - node.type.job_post
+  module:
+    - layout_builder
+    - options
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.job_post.short_listing_display
+targetEntityType: node
+bundle: job_post
+mode: short_listing_display
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: above
+    settings:
+      trim_length: 100
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_company:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_employment_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_job_title:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_workplace_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_job_category: true
+  field_location: true
+  langcode: true
+  layout_builder__layout: true

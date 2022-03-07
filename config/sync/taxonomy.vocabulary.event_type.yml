@@ -1,0 +1,8 @@
+uuid: 458076e2-039b-4383-91bb-494c4ef132b8
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event type'
+vid: event_type
+description: 'Event type related Education, Job, Movie Launch'
+weight: 0

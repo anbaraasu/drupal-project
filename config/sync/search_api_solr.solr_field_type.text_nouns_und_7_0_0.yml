@@ -1,0 +1,66 @@
+uuid: 79c9243b-a552-48b6-a7b6-1a58608edecb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zlATwjP59BkbIkJFrDe9g-TfjPvThnlqzb_WA44FCgI
+id: text_nouns_und_7_0_0
+label: 'Language Undefined Nouns Field'
+minimum_solr_version: 7.0.0
+custom_code: nouns
+field_type_language_code: und
+domains: {  }
+field_type:
+  name: text_nouns_und
+  class: solr.TextField
+  positionIncrementGap: 100
+  analyzers:
+    -
+      type: index
+      tokenizer:
+        -
+          class: solr.OpenNLPTokenizerFactory
+          sentenceModel: en-sent.bin
+          tokenizerModel: en-token.bin
+      filters:
+        -
+          class: solr.OpenNLPPOSFilterFactory
+          posTaggerModel: en-pos-maxent.bin
+        -
+          class: solr.TypeTokenFilterFactory
+          types: pos_nouns_und.txt
+          useWhitelist: true
+        -
+          class: solr.LowerCaseFilterFactory
+        -
+          class: solr.RemoveDuplicatesTokenFilterFactory
+    -
+      type: query
+      tokenizer:
+        -
+          class: solr.OpenNLPTokenizerFactory
+          sentenceModel: en-sent.bin
+          tokenizerModel: en-token.bin
+      filters:
+        -
+          class: solr.OpenNLPPOSFilterFactory
+          posTaggerModel: en-pos-maxent.bin
+        -
+          class: solr.TypeTokenFilterFactory
+          types: pos_nouns_und.txt
+          useWhitelist: true
+        -
+          class: solr.LowerCaseFilterFactory
+        -
+          class: solr.SynonymGraphFilterFactory
+          synonyms: synonyms_nouns_und.txt
+        -
+          class: solr.RemoveDuplicatesTokenFilterFactory
+unstemmed_field_type: null
+spellcheck_field_type: null
+collated_field_type: null
+solr_configs: {  }
+text_files:
+  pos: |
+
+  synonyms: ''

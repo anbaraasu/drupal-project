@@ -1,0 +1,21 @@
+uuid: b3c58bee-0e51-4e84-a733-f50b69ef055d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_title
+    - node.type.job_post
+  module:
+    - text
+id: node.job_post.field_job_title
+field_name: field_job_title
+entity_type: node
+bundle: job_post
+label: 'Job Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

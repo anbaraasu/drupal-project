@@ -1,0 +1,15 @@
+uuid: 3a52661d-1640-4297-93ec-1c97ece06c32
+langcode: en
+status: true
+dependencies: {  }
+id: stage
+label: stage
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: '$settings["config_sync_directory"]'
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

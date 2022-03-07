@@ -1,0 +1,18 @@
+uuid: dd15a02a-51da-48a6-b24b-5e6cbcbafe15
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'News Post'
+type: news_post
+description: 'Use News Post to display the news content in the website'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,20 @@
+uuid: b89de369-9816-483b-9119-0bd97e2da5cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_slider
+  theme:
+    - bartik
+id: imageslider
+theme: bartik
+region: featured_top
+weight: 0
+provider: null
+plugin: 'slider_block:5'
+settings:
+  id: 'slider_block:5'
+  label: 'Image Slider'
+  label_display: '0'
+  provider: image_slider
+visibility: {  }

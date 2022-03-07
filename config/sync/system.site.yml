@@ -1,10 +1,10 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 1bd0a4f9-e3bf-4485-9e91-bb703cb82e70
-name: MyWeb
-mail: akshay.swnt22@gmail.com
-slogan: ''
+uuid: 7fbf1059-1a10-4778-9e33-96c39e747413
+name: 'Team Node News '
+mail: anbaraasu@gmail.com
+slogan: 'Breaking news from every corner of the World'
 page:
   403: ''
   404: ''

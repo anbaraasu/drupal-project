@@ -1,0 +1,21 @@
+uuid: e4fe46d0-d71a-4516-b21e-5070f920d90f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_features
+    - paragraphs.paragraphs_type.specfication
+  module:
+    - text
+id: paragraph.specfication.field_features
+field_name: field_features
+entity_type: paragraph
+bundle: specfication
+label: Features
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

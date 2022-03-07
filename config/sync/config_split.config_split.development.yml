@@ -1,0 +1,15 @@
+uuid: fc5375bf-ccc2-405a-974b-d008484ae7a1
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: '$settings["config_sync_directory"]'
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

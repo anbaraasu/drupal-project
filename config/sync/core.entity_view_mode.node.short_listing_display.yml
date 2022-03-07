@@ -1,0 +1,10 @@
+uuid: 81417ff4-3b38-4637-8924-976aa779af20
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.short_listing_display
+label: 'Short Listing Display'
+targetEntityType: node
+cache: true

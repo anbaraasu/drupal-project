@@ -1,0 +1,21 @@
+uuid: 22f21295-ed2d-4232-a7f5-d3823bc1eca4
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_manager
+id: page_manager-http_status_code-0
+label: 'HTTP status code'
+weight: 0
+variant: http_status_code
+variant_settings:
+  id: http_status_code
+  label: null
+  weight: 0
+  uuid: b585c1fd-7c76-4804-9eeb-95e023458138
+  status_code: 404
+  redirect_location: ''
+page: page_manager
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

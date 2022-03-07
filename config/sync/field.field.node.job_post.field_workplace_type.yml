@@ -1,0 +1,21 @@
+uuid: eabee74c-26cc-48a4-9ed8-ba846911d26d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workplace_type
+    - node.type.job_post
+  module:
+    - options
+id: node.job_post.field_workplace_type
+field_name: field_workplace_type
+entity_type: node
+bundle: job_post
+label: 'Workplace type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

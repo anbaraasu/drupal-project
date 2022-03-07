@@ -1,0 +1,8 @@
+uuid: d10a7097-13e6-47c4-bce2-aca0b1f723e6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Blog type'
+vid: blog_type
+description: 'Blog type Science, Technology, Cricket, etc.,'
+weight: 0

@@ -1,0 +1,20 @@
+uuid: 02d33d45-5fec-44cb-a14f-76709047e706
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_company
+field_name: field_company
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

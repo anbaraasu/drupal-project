@@ -1,0 +1,29 @@
+uuid: 3c9cafd8-1057-4b21-a489-7e0730f4cdb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - webform
+  theme:
+    - bartik
+id: webformsubmissionlimits
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: webform_submission_limit_block
+settings:
+  id: webform_submission_limit_block
+  label: 'Webform submission limits'
+  label_display: visible
+  provider: webform
+  type: webform
+  source_entity: true
+  content: ''
+  progress_bar: true
+  progress_bar_label: ''
+  progress_bar_message: ''
+  webform_id: null
+  entity_type: ''
+  entity_id: ''
+visibility: {  }

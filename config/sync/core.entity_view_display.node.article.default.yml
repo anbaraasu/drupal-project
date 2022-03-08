@@ -1,4 +1,4 @@
-uuid: 3d7086cf-ee6b-4a1c-9d55-90a621bd8d93
+uuid: f4a8f2ea-c0c1-463a-9306-d0ad7f236f03
 langcode: en
 status: true
 dependencies:
@@ -12,111 +12,9 @@ dependencies:
     - node.type.article
   module:
     - comment
-    - field_layout
     - image
-    - layout_builder
-    - layout_discovery
     - text
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings:
-          label: ''
-        components:
-          5a7242dd-8487-4dc7-b27e-08739d5d06f5:
-            uuid: 5a7242dd-8487-4dc7-b27e-08739d5d06f5
-            region: content
-            configuration:
-              id: 'field_block:node:article:field_image'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: image
-                label: hidden
-                settings:
-                  image_link: ''
-                  image_style: large
-                third_party_settings: {  }
-            weight: 0
-            additional: {  }
-          72d3379a-cdef-4bff-b7f4-044fe642eca1:
-            uuid: 72d3379a-cdef-4bff-b7f4-044fe642eca1
-            region: content
-            configuration:
-              id: 'field_block:node:article:body'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: text_default
-                label: hidden
-                settings: {  }
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
-          a2ef4b94-23fb-4eca-a906-94eda45693ae:
-            uuid: a2ef4b94-23fb-4eca-a906-94eda45693ae
-            region: content
-            configuration:
-              id: 'field_block:node:article:field_tags'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: entity_reference_label
-                label: above
-                settings:
-                  link: true
-                third_party_settings: {  }
-            weight: 2
-            additional: {  }
-          321a351b-c919-42f6-b653-be3d96ccab51:
-            uuid: 321a351b-c919-42f6-b653-be3d96ccab51
-            region: content
-            configuration:
-              id: 'extra_field_block:node:article:links'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 3
-            additional: {  }
-          e017fcdc-62fe-4e34-bdbd-1f7de9af7be6:
-            uuid: e017fcdc-62fe-4e34-bdbd-1f7de9af7be6
-            region: content
-            configuration:
-              id: 'field_block:node:article:comment'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: comment_default
-                label: above
-                settings:
-                  view_mode: default
-                  pager_id: 0
-                third_party_settings: {  }
-            weight: 4
-            additional: {  }
-          8cf5195e-d582-434b-adb0-48d6be2ce956:
-            uuid: 8cf5195e-d582-434b-adb0-48d6be2ce956
-            region: content
-            configuration:
-              id: 'extra_field_block:node:article:addtoany'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-            weight: 5
-            additional: {  }
-        third_party_settings: {  }
 _core:
   default_config_hash: b4RQ-Nfz-gOoG_jjftd_qDIz4lf_-OzlxoLHkRXjfrE
 id: node.article.default
@@ -124,11 +22,6 @@ targetEntityType: node
 bundle: article
 mode: default
 content:
-  addtoany:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 5
-    region: content
   body:
     type: text_default
     label: hidden
@@ -167,7 +60,4 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden:
-  langcode: true
-  search_api_excerpt: true
-  shariff_field: true
+hidden: {  }

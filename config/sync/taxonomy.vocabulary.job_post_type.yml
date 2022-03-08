@@ -1,8 +1,0 @@
-uuid: 2895bb91-d70a-4cd1-b522-ae9696351461
-langcode: en
-status: true
-dependencies: {  }
-name: 'Job Post Type'
-vid: job_post_type
-description: 'Job Post Type'
-weight: 0

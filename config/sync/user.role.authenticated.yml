@@ -1,4 +1,4 @@
-uuid: d3d0e384-6173-47b8-bcda-6ff268752f2a
+uuid: 4bba0e1f-10e6-4419-aa75-445fc8cae7bf
 langcode: en
 status: true
 dependencies:
@@ -8,8 +8,6 @@ dependencies:
     - comment
     - contact
     - filter
-    - google_analytics
-    - media
     - search
     - shortcut
     - system
@@ -24,9 +22,7 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
-  - 'opt-in or out of google analytics tracking'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
-  - 'view media'

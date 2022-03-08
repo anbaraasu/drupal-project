@@ -1,10 +1,10 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 7fbf1059-1a10-4778-9e33-96c39e747413
-name: 'Team Node News '
+uuid: a1356e0f-2e04-43ca-9023-2803361cfcbb
+name: 'Project Ready Portal'
 mail: anbaraasu@gmail.com
-slogan: 'Breaking news from every corner of the World'
+slogan: ''
 page:
   403: ''
   404: ''

@@ -1,8 +1,0 @@
-uuid: c557ff70-a1f7-4c98-aaa7-4ba385c1a14e
-langcode: en
-status: true
-dependencies: {  }
-name: 'News Type'
-vid: newsvocabulary
-description: 'News Vocabulary items Sports, Politics, etc.,'
-weight: 0

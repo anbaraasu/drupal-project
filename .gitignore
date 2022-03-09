@@ -6,16 +6,16 @@
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
-
+ 
 /core/
 /modules/contrib/
 /themes/contrib/
 /profiles/contrib/
 /libraries/
-/modules
-/sites
-/profiles
-/themes
+/modules/
+/sites/
+/profiles/
+/themes/
 
 # Ignore sensitive information
 /web/sites/*/settings.php

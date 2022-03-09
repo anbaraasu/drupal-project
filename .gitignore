@@ -12,6 +12,10 @@
 /themes/contrib/
 /profiles/contrib/
 /libraries/
+/modules
+/sites
+/profiles
+/themes
 
 # Ignore sensitive information
 /web/sites/*/settings.php
